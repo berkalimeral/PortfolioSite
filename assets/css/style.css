@@ -1,0 +1,373 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #272829;
+  }
+  
+a {
+    color: #149ddd;
+    text-decoration: none;
+  }
+  
+a:hover {
+    color: #37b3ed;
+    text-decoration: none;
+  }
+  
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+  }
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 2px solid #1f5297;
+}
+
+/* NOV START */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100;
+    transition: all ease-in-out 0.5s;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+  }
+  
+.header .profile img {
+    margin: 15px auto;
+    display: block;
+    width: 120px;
+    border: 8px solid #2c2f3f;
+  }
+  
+.header .profile h1 {
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+  }
+  
+.header .profile h1 a, .header .profile h1 a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+.header .profile .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #212431;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+.header .profile .social-links a:hover {
+    background: #149ddd;
+    color: #fff;
+    text-decoration: none;
+  } 
+
+.nav-menu {
+    padding: 30px 0 0 0;
+  }
+  
+.nav-menu * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+.nav-menu  ul li {
+    position: relative;
+    white-space: nowrap;
+  }
+  
+.nav-menu a {
+    display: flex;
+    align-items: center;
+    color: #a8a9b4;
+    padding: 12px 15px;
+    margin-bottom: 8px;
+    transition: 0.3s;
+    font-size: 15px;
+  }
+
+.nav-menu a:hover, .nav-menu .active, .nav-menu li:hover > a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+#footer {
+    padding: 15px;
+    color: #f4f6fd;
+    font-size: 14px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    /* width: 300px; */
+    z-index: 9999;
+    background: #040b14;
+  }
+  
+#footer .copyright {
+    text-align: center;
+  }
+  
+#footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 13px;
+    color: #eaebf0;
+  }
+
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/mrX.jpg") top center;
+    background-size: auto;
+  }
+  
+#hero:before {
+    content: "";
+    background: rgba(5, 13, 24, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+#hero .hero-container {
+    position: relative;
+    z-index: 2;
+    min-width: 300px;
+  }
+  
+#hero h1 {
+    margin: 0 0 10px 0;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+  }
+  
+#hero p {
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+  }
+
+/* NAV END */
+
+/* HAKKIMDA START */
+
+.pp img{
+  border: 3px solid #173b6c;
+}
+  
+.hakkımda-başlık {
+    padding-bottom: 30px;
+  }
+  
+.hakkımda-başlık h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+  }
+  
+.hakkımda-başlık h1::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+    margin-left: 570px;
+  }
+  
+.hakkımda-başlık p {
+    margin-bottom: 0;
+    text-align: justify;
+  }
+
+.about .content{
+    border: 4px solid #173b6c;
+  }
+
+.about .content h3 {
+    font-weight: 700;
+    font-size: 26px;
+    color: #173b6c;
+  }
+  
+.about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.about .content ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+.about .content ul strong {
+    margin-right: 10px;
+  }
+  
+.about .content p:last-child {
+    margin-bottom: 0;
+  }
+
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+.section-bg {
+    background: #f5f8fd;
+  }
+  
+.section-title {
+    padding-bottom: 30px;
+  }
+  
+.section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #173b6c;
+  }
+  
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: #149ddd;
+    bottom: 0;
+    left: 0;
+  }
+  
+.section-title p {
+    margin-bottom: 0;
+  }
+
+/* HAKKIMDA END */
+
+/* İLETİŞİM START */
+
+.iletisim {
+  padding-bottom: 130px;
+}
+
+.iletisim .bilgi {
+  padding: 30px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.iletisim .bilgi h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #050d18;
+}
+
+.iletisim .bilgi p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #173b6c;
+}
+
+.iletisim .bilgi .email p {
+  padding-top: 5px;
+}
+
+.iletisim .iletisim-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.iletisim .iletisim-form .form-group {
+  padding-bottom: 8px;
+}
+
+.iletisim .iletisim-form .form-group {
+  margin-bottom: 15px;
+}
+
+.iletisim .iletisim-form label {
+  padding-bottom: 8px;
+}
+
+.iletisim .iletisim-form input, .iletisim .iletisim-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.iletisim .iletisim-form input {
+  height: 44px;
+}
+
+.iletisim .iletisim-form textarea {
+  padding: 10px 15px;
+}
+
+.iletisim .iletisim-form button[type="submit"] {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+.iletisim .iletisim-form button[type="submit"]:hover {
+  background: #37b3ed;
+}
+
+/* İLETİŞİM END */
+
+/* YAZILARIM START */
+
+
+
+/* YAZILARIM END */

@@ -1,0 +1,430 @@
+body{
+    /* background-color: #1d1e20; */
+    background-color: #f1f1f1;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    /* height:300vh; */
+}
+
+
+/* HEADER START */
+
+header{
+    z-index: 999;
+}
+
+header .header-wrapper .header-content{
+    align-items: flex-end;
+}
+
+header .header-wrapper .header-title a{
+    text-decoration: none;
+    color: #333;   
+    font-size: 1.9rem;
+    font-weight: 600;
+}
+
+header .header-wrapper .header-menu ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+header .header-wrapper .header-menu ul li{
+    list-style-type: none;
+}
+
+header .header-wrapper .header-menu ul li a{
+    text-decoration: none;
+    color: #333;
+    opacity: 0.6;
+    font-weight: 400;
+}
+
+header .header-wrapper .header-menu ul li a:hover{
+    opacity: 100%;
+}
+
+/* HEADER END */
+
+
+/* PERSON INFO WRAPPER START */
+
+.person-info-wrapper .person-info-container{
+    padding: 8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person-info-wrapper .person-info-container .person-photo{
+    text-align: right;
+    padding-left: 0%; /*  eskiden 5 ti*/  
+}
+
+.person-info-wrapper .person-info-container .person-photo img{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    background-color: #444;
+    border: 15px solid #444;
+    -webkit-box-shadow: 0 0 25px 0 rgb(0 0 0 / 80%);
+    -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,.8);
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 80%);   
+}
+
+.person-info-wrapper .person-info-container .person-info-text{
+    text-align: left;   
+    line-height: 25px;
+    max-width: 950px;
+    margin: auto;
+    padding: 0 5%;
+}
+
+.person-info-wrapper .person-info-container .person-info-text .person-job{
+    color: #444;   
+}
+
+.person-info-wrapper .person-info-container .person-info-text .person-name h1{
+    color: #333;   
+    font-weight: 600;
+    padding: 2% 0;
+}
+
+.person-info-wrapper .person-info-container .person-info-text .person-text{
+    color: #444;   
+    font-size: 0.9rem;
+}
+
+.person-info-wrapper .person-info-container .person-info-text .person-social-link ul{
+    list-style-type: none;
+    display: flex;    
+    padding: 0;
+    margin-top: 1rem;
+}
+
+.person-info-wrapper .person-info-container .person-info-text .person-social-link li{
+    padding: 1%;
+}
+
+.person-info-wrapper .person-info-container .person-info-text .person-social-link ul a{
+    text-decoration: none; 
+    color: #333;   
+}
+
+/* PERSON INFO WRAPPER END */
+
+
+/* BLOG POST WRAPPER START */
+
+.blog-post-wrapper .blog-post-container{
+    margin: auto;
+    max-width: 950px;
+    /* margin: 25px; */
+}
+
+.blog-post-wrapper .blog-post-container .blog-post-top-title{
+    text-decoration: none;
+    color: #333;   
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 2% 3%;
+}
+
+.blog-post-wrapper .blog-post-container .blog-post-row .blog-post{
+    text-align: center;
+    background-color: #f5f5f5;
+    border: 2px solid rgba(0, 0, 0, 0.28);
+    border-radius: 10px;
+    max-width: 460px;
+    margin: 1%;
+    overflow: hidden;  
+    /* margin: auto; */
+
+    /* max-width: 380px; */
+    /* rgba(0, 0, 0, 0.10) */
+}
+
+.blog-post-wrapper .blog-post a{
+    text-decoration: none;
+}
+
+.blog-post-wrapper .blog-post:hover{
+    -webkit-box-shadow: 0 0 25px 0 rgb(0 0 0 / 80%);
+    -moz-box-shadow: 0 0 25px 0 rgba(0,0,0,.8);
+    box-shadow: 0 0 25px 0 rgb(0 0 0 / 80%);   
+}
+
+.blog-post-wrapper .blog-post-container .blog-post .blog-post-thumbnail img{
+    width: 425px;
+    height: 275px; 
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.28);
+    object-fit: cover;
+
+    /* width: 330px;
+    height: 220px; */
+
+}
+
+.blog-post-wrapper .blog-post-container .blog-post .blog-post-thumbnail{
+    max-width: 425px;
+    max-height: 275px; 
+    margin: auto;
+    padding-top:3%;
+}
+
+.blog-post-wrapper .blog-post .blog-post-text .blog-post-title{
+    color: #333;
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 5% 0% 0% 2%;
+    
+}
+
+.blog-post-wrapper .blog-post .blog-post-text .blog-post-description{
+    color: #444;
+    font-size: 0.9rem;
+    font-weight: 400;
+    padding: 1% 0% 0% 2%;
+}
+
+.blog-post-wrapper .blog-post .blog-post-text{
+    text-align: left;
+}
+
+.blog-post-wrapper .blog-post .blog-post-text .blog-post-meta-info ul{
+    list-style-type: none; 
+    padding: 1% 0% 0% 2%;
+}
+
+.blog-post-wrapper .blog-post .blog-post-text .blog-post-meta-info ul li{
+    display: flex;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.blog-post-wrapper .blog-post .blog-post-text .blog-post-meta-info ul li > div{
+    padding: 1%;
+}
+
+
+/* BLOG POST WRAPPER END */
+
+
+
+/* FOOTER START */
+
+footer .copyright{
+    color: #333;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+footer hr:not([size]) {
+    width: 100%;
+    height: 2.1px;
+    color:#333;
+}
+
+/* FOOTER END */
+
+
+/* ------------------ CONTACT PAGE 
+                      CSS CODE START  ------------*/
+
+
+/* CONTACT WRAPPER START */
+
+.contact-wrapper .contact-container .contact-top-title{
+    text-decoration: none;
+    color: #333;   
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 2% 3%;
+}
+
+.contact-wrapper .contact-container .contact-form form input{
+    color: black;
+    background-color: transparent; 
+    border: 2px solid #bfbfbf;
+    border-color: #555;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: 400;
+    height: 42px;
+    width: 380px;
+}
+
+.contact-wrapper .contact-container .contact-form form textarea{
+    color: black;
+    background-color: transparent; 
+    border: 2px solid #bfbfbf;
+    border-color: #555;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    padding-left: 1%;
+    padding-top: 1%;
+    font-weight: 400;
+    height: 165px;
+    width: 380px;
+}
+
+.contact-wrapper .contact-container .contact-form form input:focus{
+    border-color: #007ced;
+}
+
+.contact-wrapper .contact-container .contact-form form textarea:focus{
+    border-color: #007ced;
+}
+
+.contact-wrapper .contact-container .contact-form form div{
+    margin: 1.5%;
+}
+
+.contact-wrapper .contact-container .contact-form form .button-input button{
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 78%);
+    font-size: 1rem;
+    border-radius: 30px;
+    border: 2px solid #007ced;
+    padding: 8px 30px;
+}
+.contact-wrapper .contact-container .contact-form form .button-input button:hover{
+    background-color: #007ced;
+}
+
+/* CONTACT WRAPPER END */
+
+
+/* ------------------ CONTACT PAGE 
+                      CSS CODE END  ------------*/
+
+
+
+/* ------------------ ABOUT PAGE 
+                      CSS CODE START  ------------*/
+
+
+/* ABOUT WRAPPER START */
+
+.about-wrapper .about-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.about-wrapper .about-container .about-top-title{
+    text-decoration: none;
+    color: #333;   
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 2% 3%;
+}
+
+
+.about-wrapper .about-container .about-container-text{
+    background-color: #f5f5f5;
+    border: 2px solid rgba(0, 0, 0, 0.28);
+    border-radius: 10px;
+    margin: auto;
+    /* height: 160vh; */
+} 
+
+.about-wrapper .about-container .about-container-text .about-text-title{
+    text-decoration: none;
+    color: #333;   
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding: 2% 3%;
+}
+
+.about-wrapper .about-container .about-container-text .about-text{
+    text-decoration: none;
+    color: #333;   
+    font-size: 1rem;
+    padding: 2% 3%;
+    text-align: Justify;
+}
+
+/* ABOUT WRAPPER END */
+
+
+/* ------------------ ABOUT PAGE 
+                      CSS CODE END  ------------*/
+
+                     
+
+/* ------------------ BLOG TEXT PAGE 
+                      CSS CODE END  ------------*/
+
+
+/*  BLOG TEXT WRAPPER START */
+
+.blog-wrapper .blog-container{
+    max-width: 900px;
+    margin: auto;
+}
+
+.blog-wrapper .blog-container .blog-top-title{
+    text-decoration: none;
+    color: #333;   
+    font-size: 2.3rem;
+    font-weight: 600;
+    padding: 2% 3%;
+}
+
+
+.blog-wrapper .blog-container .blog-container-text{
+    background-color: #f5f5f5;
+    border: 2px solid rgba(0, 0, 0, 0.28);
+    border-radius: 10px;
+    margin: auto;
+    /* height: 160vh; */
+} 
+
+.blog-wrapper .blog-container .blog-container-text .blog-text-title{
+    text-decoration: none;
+    color: #333;   
+    font-size: 2.7rem;
+    font-weight: 600;
+    padding: 0% 3%;
+}
+
+.blog-wrapper .blog-container .blog-container-text .blog-text{
+    text-decoration: none;
+    color: #333;   
+    font-size: 1rem;
+    padding: 2% 3%;
+    text-align: Justify;
+}
+
+.blog-wrapper .blog-container .blog-container-text .blog-text-meta-info  ul{
+    list-style-type: none; 
+    padding: 1% 0% 0% 2%;
+}
+
+.blog-wrapper .blog-container .blog-container-text .blog-text-meta-info  ul li{
+    display: flex;
+    font-size: 0.8rem;
+    color: #aaa;
+}
+
+.blog-wrapper .blog-container .blog-container-text .blog-text-meta-info ul li > div{
+    padding: 1%;
+}
+
+/* BLOG TEXT WRAPPER END */
+
+
+/* ------------------ BLOG TEXT PAGE 
+                      CSS CODE END  ------------*/
+
+
+
+
+

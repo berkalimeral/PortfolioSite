@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?7365413b94e78d1f429e707f7ca8a838") format("truetype"),
+url("./flaticon.woff?7365413b94e78d1f429e707f7ca8a838") format("woff"),
+url("./flaticon.woff2?7365413b94e78d1f429e707f7ca8a838") format("woff2"),
+url("./flaticon.eot?7365413b94e78d1f429e707f7ca8a838#iefix") format("embedded-opentype"),
+url("./flaticon.svg?7365413b94e78d1f429e707f7ca8a838#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-linkedin:before {
+    content: "\f101";
+}
+.flaticon-linkedin-1:before {
+    content: "\f102";
+}
+.flaticon-twitter:before {
+    content: "\f103";
+}
+.flaticon-facebook:before {
+    content: "\f104";
+}
+.flaticon-instagram:before {
+    content: "\f105";
+}
